@@ -3,25 +3,7 @@
 
 
 //Constantes de Texto
-#define TEXTO_INICIAL "\n\n\n\t\tHace mucho tiempo, en una galaxia muy, muy lejana...\n\n"
-#define TEXTO_LOGO_1 "      _                                      "
-#define TEXTO_LOGO_2 "  ___| |_ __ _ _ __  __      ____ _ _ __ ___ "
-#define TEXTO_LOGO_3 " / __| __/ _` | '__| \\ \\ /\\ / / _` | '__/ __|"
-#define TEXTO_LOGO_4 " \\__ \\ || (_| | |     \\ V  V / (_| | |  \\__ \\"
-#define TEXTO_LOGO_5 " |___/\\__\\__,_|_|      \\_/\\_/ \\__,_|_|  |___/"
-#define INTRO_1 "\n\n\n\t\t\t\tEPISODIO X"
-#define INTRO_2 "\n\n\tNuestra historia comienza en el planeta Tierra 616 con un joven"
-#define INTRO_3 "\n\n\testudiante de programacion. Se le fue asignado por el Consejo CFP-27"
-#define INTRO_4 "\n\n\trealizar un programa que calcule la fuerza y voluntad de los jovenes"
-#define INTRO_5 "\n\n\tPadawans. Para esto, debera crear un codigo capaz de recibir la"
-#define INTRO_6 "\n\n\tinformacion importante de los Padawans y, a su vez, realizar el"
-#define INTRO_7 "\n\n\tcalculo necesario para verificar si los jovenes viviran para"
-#define INTRO_8 "\n\n\tluchar junto con el Orden Jedi en el lado luminoso de la Fuerza y"
-#define INTRO_9 "\n\n\tproteger a la Galaxia...o si estan destinados a corromperse"
-#define INTRO_10 "\n\n\tpor el lado oscuro y unirse a los Sith. Podra nuestro estudiante"
-#define INTRO_11 "\n\n\trealizar esta tarea de suma importancia y ser aprobado por el"
-#define INTRO_12 "\n\n\tMaestro Erick? O sera otra victima del Orden 66? Sean bienvenidos a..."
-#define INTRO_13 "\n\n\n\t\t\tSTAR CODE: THE RISE OF A PROGRAMMER"
+#define INTRO_1 "\n\n\n\t\t\tSTAR CODE: THE RISE OF A PROGRAMMER"
 #define TEXTO_MIDI_1 "\n\n\tEmpecemos, ingrese la cantidad de midiclorianos del joven Padawan"
 #define TEXTO_MIDI_2 "\n\t(100.0 - 2999.9):\n\n\t-> "
 #define ERROR_MIDI "\n\t(Cantidad de midiclorianos no valida.)\n\n\t-> "
@@ -79,39 +61,7 @@ const char OPC_T_MIN = 't';
 
 void introduccion ()
 {
-	printf("%s", TEXTO_INICIAL);
-	Sleep(3000);
-	printf("\t\t%s\n", TEXTO_LOGO_1);
-	printf("\t\t%s\n", TEXTO_LOGO_2);
-	printf("\t\t%s\n", TEXTO_LOGO_3);
-	printf("\t\t%s\n", TEXTO_LOGO_4);
-	printf("\t\t%s\n", TEXTO_LOGO_5);
-	Sleep(2400);
 	printf("%s", INTRO_1);
-	Sleep(2400);
-	printf("%s", INTRO_2);
-	Sleep(2400);
-	printf("%s", INTRO_3);
-	Sleep(2400);
-	printf("%s", INTRO_4);
-	Sleep(2400);
-	printf("%s", INTRO_5);
-	Sleep(2400);
-	printf("%s", INTRO_6);
-	Sleep(2400);
-	printf("%s", INTRO_7);
-	Sleep(2400);
-	printf("%s", INTRO_8);
-	Sleep(2400);
-	printf("%s", INTRO_9);
-	Sleep(2400);
-	printf("%s", INTRO_10);
-	Sleep(2400);
-	printf("%s", INTRO_11);
-	Sleep(2400);
-	printf("%s", INTRO_12);
-	Sleep(2400);
-	printf("%s", INTRO_13);
 	Sleep(2400);
 }
 
